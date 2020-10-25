@@ -1,6 +1,6 @@
 # API_JTJ (Json-to-Json)
 Simple API app with exaples how to create app with API. Input: JSON, output: JSON
-
+Docker hub repo: https://hub.docker.com/repository/docker/alexkay/api_jtj
 
 ### Docker Deployment
 It is very easy to install and utilize with a Docker container.
@@ -27,6 +27,13 @@ http://localhost:8086/solve
 or, which is equal:
 ```
 http://0.0.0.0:8086/solve
+```
+
+##### Docker easy run
+
+You can easily run docker rigth from docker hub repo using this commad:
+```
+docker run -d -p 8085:8085 -name working_app alexkay/api_jtj:api_app
 ```
 #### Usage Example
 You can check working app by using "usage_example.py" script in dirrectory. Use command:
