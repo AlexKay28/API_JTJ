@@ -3,7 +3,7 @@ import requests
 import json
   
 # use this adress and port
-URL = "http://0.0.0.0:8086/solve"
+URL = "http://0.0.0.0:8085/solve"
 
 # inputs
 calc_id = input('Input calc id: ')
