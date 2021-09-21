@@ -9,8 +9,5 @@ RUN pip install -r requirements.txt
 
 
 COPY app/ .
-COPY swagger/ .
-
-
 
 CMD ["python", "app.py"]
